@@ -1,0 +1,53 @@
+----------------------------------
+1->5
+1->2->5
+Total distance: 6
+----------------------------------
+Routing table of node 1
+Dest   Hop   Dist
+  2     1     4
+  3     2     7
+  4     5     9
+  5     2     6
+  6     5     11
+
+Routing table of node 2
+Dest   Hop   Dist
+  1     2     4
+  3     2     3
+  4     5     5
+  5     2     2
+  6     5     7
+
+Routing table of node 3
+Dest   Hop   Dist
+  1     2     7
+  2     3     3
+  4     3     5
+  5     2     5
+  6     4     7
+
+Routing table of node 4
+Dest   Hop   Dist
+  1     2     9
+  2     5     5
+  3     4     5
+  5     4     3
+  6     4     2
+
+Routing table of node 5
+Dest   Hop   Dist
+  1     2     6
+  2     5     2
+  3     2     5
+  4     5     3
+  6     5     5
+
+Routing table of node 6
+Dest   Hop   Dist
+  1     2     11
+  2     5     7
+  3     4     7
+  4     6     2
+  5     6     5
+
